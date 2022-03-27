@@ -4,9 +4,9 @@ using static Console;
 
 public static class FizzBuzz
 {
-    public static void Run()
+    public static void Run(int fromNum, int toNum)
     {
-        for (var i = 1; i <= 100; i++)
+        for (var i = fromNum; i <= toNum; i++)
         {
             var result = "";
         

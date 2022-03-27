@@ -1,3 +1,3 @@
 ﻿using ConsoleApp.CSharp;
 
-FizzBuzz.Run();
+FizzBuzz.Run(1, 100);
